@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Wallace Sanches | Biomedicina Integrativagit </title>
+    <link rel="stylesheet" href="style2.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg bg-success">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">WS | Biomedicina Integrativa</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Início</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Consultas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Quem Somos Nós</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contatos</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <br><br>
+    </header>
+
+    <section class="container-fluid bg-light text-center p-3">       
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="Imagem1.jpg" width="300" height="500" class="card-img-top" alt="...">
+            <div class="card-body bg-success">
+        
+              <h2 class="card-title">Acupuntura</h2>
+              <p class="card-text">Prática que usa a aplicação de agulhas pequenas em várias regiões do corpo, chamadas meridianos. Nesses pontos específicos, são encontradas terminações de fibras musculares, nervos e tendões. Desse modo, a técnica ajuda no alívio das dores, tensões e mal-estar.</p>
+            </div>
+            <a href="#" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#exampleModal"> Saiba Mais </a>
+            <div class="card-footer">
+              
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="Imagem2.jpg" width="300" height="500" class="card-img-top" alt="...">
+            <div class="card-body bg-success">
+              <h2 class="card-title">Auriculoterapia</h2>
+              <p class="card-text">Uma técnica semelhante à acupuntura, que consiste na aplicação de pressão em pontos específicos da orelha, para auxiliar no tratamento de problemas de saúde como osteoartrite, enxaqueca, lesões musculares e insônia</p>
+            </div>
+            <a href="#" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#exampleModal"> Saiba Mais </a>
+            <div class="card-footer">
+              
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="Imagem3.jpg" width="300" height="500" class="card-img-top" alt="...">
+            <div class="card-body bg-success">
+              <h2 class="card-title">Moxabustão</h2>
+              <p class="card-text">também chamada de moxaterapia, é uma técnica de acupuntura que consiste em aplicar calor direta ou indiretamente sobre a pele, através de um bastão enrolado com ervas medicinais como a artemísia,</p>
+            </div>
+            <a href="#" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#exampleModal"> Saiba Mais </a>
+            <div class="card-footer">
+            </div>
+          </div>
+        </div>
+      </div>
+<br><br><br>        
+        <section class="container-fluid bg-success p-3">
+            <h2 class="text-center text-white"> Prontuário </h2>
+            <form method="GET" action="">
+                <fieldset>
+                    <legend class="text-white"> Dados do paciente:</legend>
+                    <div class="mb-3">
+                        <label class="form-lable text-white " for="none">         
+                            Nome: 
+                    </label>
+                        <input type="text " class="form-control" name="Nome" id="none">
+                </div>
+                <div class="mb-3">
+                    <label class="form-lable text-white" for="num" id="num">         
+                        Telefone 
+                </label>
+                    <input type="number" class="form-control" name="num" id="num">
+            </div>                    
+                <div class="mb-3">
+                    <label class="form.label text-white" for="email" id="email"> 
+                        E-mail<br>
+                    </label>
+                <input type="email" class="form-control" required placeholder="email@hotmail.com" name="Email"> <br>
+                </div>
+                <div class="mb-3">
+                <label class="form.label text-white" for="datanascimento" id="date"> 
+                    Data de Nascimento<br>
+                </label>
+                <input type="date" class="form-control" name="datanascimento" id="date"> <br>
+                </div>
+                <div class="mb-3">
+                    <label class="form.label text-white" for="datanascimento" id="date"> 
+                        Endereço <br>
+                    </label>
+                    <input type="adress" class="form-control" name="Data de volta" id="date"> <br>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form.label text-white" for="datanascimento" id="date"> 
+                            Queixa Principal <br>
+                        </label>
+                        <input type="adress" class="form-control" name="Data de volta" id="date"> <br>
+                        </div>
+                </fieldset>
+                <button class="btn btn-secondary" > Solicitar agendamento </button>
+
+    </main>
+    <br><br><footer class="text-center bg-success py-3">
+    <p>&copy; <span id="current-year"></span> WS Integrativa. Todos os direitos reservados.</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+    
+    document.getElementById('current-year').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
